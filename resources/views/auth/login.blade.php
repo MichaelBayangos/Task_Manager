@@ -9,7 +9,7 @@
                         Welcome Back
                     </h2>
                     <p class="mt-4 text-center text-gray-400"> Login to continue</p>
-                    <form method="POST" action="#" class="mt-8 space-y-6">
+                    <form method="POST" action="{{route('login')}}" class="mt-8 space-y-6">
                         @csrf
                         <div class="rounded-md shadow-sm">
                             <div>
