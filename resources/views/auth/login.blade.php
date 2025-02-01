@@ -1,4 +1,4 @@
-<x-layouts.app title="LogIn">
+<x-layouts.app title="Login">
     <x-navigation />
     {{-- Log In form --}}
     <div class="flex justify-center items-center w-full">
@@ -22,9 +22,17 @@
                             </div>
                         </div>
                         <div>
-                            <button class="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-gray-900 bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" type="submit">
+                            <button class="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-gray-900 bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mb-4" type="submit">
                                 Login
                             </button>
+                            {{-- validation error --}}
+                            @if($errors->any())
+                            <ul class="px-4 py-2 bg-red-100">
+                                @foreach($errors->all() as $error)
+                                <li class="my-2 text-red-500">{{$error}}</li>
+                                @endforeach
+                            </ul>
+                            @endif
                         </div>
                     </form>
                 </div>
