@@ -12,10 +12,6 @@
                     <form method="POST" action="{{route('login')}}" class="mt-8 space-y-6">
                         @csrf
                         <div class="rounded-md shadow-sm">
-                            <div>
-                                <label class="sr-only" for="name">Name</label>
-                                <input placeholder="name" class="appearance-none relative block w-full px-3 py-3 border border-gray-700 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" required="" autocomplete="name" type="name" name="name" id="name" value="{{old('name')}}" />
-                            </div>
                             <div class="mt-4">
                                 <label class="sr-only" for="email">Email address</label>
                                 <input placeholder="Email address" class="appearance-none relative block w-full px-3 py-3 border border-gray-700 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" required="" autocomplete="email" type="email" name="email" id="email" value="{{old('email')}}" />
