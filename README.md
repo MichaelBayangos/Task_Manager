@@ -9,7 +9,7 @@
 
 ## About Task Manager
 
-**Task Manager** is a web application built with Laravel to help users manage their tasks efficiently. It provides a simple and intuitive interface for creating, organizing, and tracking tasks. Whether you're managing personal to-dos or team projects, Task Manager makes it easy to stay on top of your work.
+**Task Manager** is a web application built with Laravel to help users manage their tasks efficiently. It provides a simple and intuitive interface for creating, editing, and deleting tasks. Whether you're managing personal to-dos, Task Manager makes it easy to stay on top of your work.
 
 ### Key Features
 
