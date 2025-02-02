@@ -36,10 +36,6 @@
                         </div>
                     </form>
                 </div>
-                <div class="px-8 py-4 bg-gray-700 text-center">
-                    <span class="text-gray-400">Don't have an account?</span>
-                    <a class="font-medium text-indigo-500 hover:text-indigo-400" href="#">Register</a>
-                </div>
             </div>
         </div>
     </div>

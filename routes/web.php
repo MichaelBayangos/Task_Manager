@@ -10,13 +10,13 @@ Route::get('/', function () {
 
 // this is Route controller for AUTH
 Route::get('/Register',[AuthController::class,'showRegiter'])->name('show.register');
-Route::get('/LogIn',[AuthController::class,'showLogin'])->name('show.login');
+Route::get('/Login',[AuthController::class,'showLogin'])->name('show.login');
 Route::post('/Register',[AuthController::class,'regiter'])->name('register');
 Route::post('/logout',[AuthController::class,'logout'])->name('logout');
 
 // logout routes
-Route::post('/LogIn',[AuthController::class,'login'])->name('login');
+Route::post('/Login',[AuthController::class,'login'])->name('login');
 
 
 // this is route resrouce for the CRUD operation of Task
-Route::resource('/home',TaskController::class);
+Route::resource('/home',TaskController::class)->middleware('auth');

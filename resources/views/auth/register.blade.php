@@ -44,10 +44,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="px-8 py-4 bg-gray-700 text-center">
-                    <span class="text-gray-400">Already have an account?</span>
-                    <a class="font-medium text-indigo-500 hover:text-indigo-400" href="#">Login</a>
-                </div>
+        
             </div>
         </div>
     </div>
