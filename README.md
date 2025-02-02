@@ -14,12 +14,11 @@
 ### Key Features
 
 - **Task Creation**: Easily create tasks with titles, descriptions, due dates, and priorities.
-- **Task Organization**: Organize tasks into projects or categories for better management.
-- **Task Status Tracking**: Update task status (e.g., To Do, In Progress, Done) to track progress.
+- **Task View**: Easily view tasks with Name of the user, descriptions, due dates, and priorities.
+- **Task Deletion**: Easily delete tasks.
+- **Task Editing**: Easily edit tasks.
 - **User Authentication**: Secure user accounts with registration and login functionality.
 - **Responsive Design**: Access your tasks from any device with a responsive and user-friendly interface.
-- **Notifications**: Get reminders for upcoming or overdue tasks.
-- **Search and Filter**: Quickly find tasks using search and filter options.
 
 ## Getting Started
 
@@ -29,12 +28,6 @@ Follow these steps to set up the Task Manager application on your local machine.
 
 - PHP >= 8.0
 - Composer
-- MySQL or any other supported database
+- Sqlite or any other supported database
 - Node.js and NPM (for frontend assets)
 
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/task-manager.git
-   cd task-manager
